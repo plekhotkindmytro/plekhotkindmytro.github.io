@@ -17,7 +17,7 @@ body {
 
 #devlog {
     color: #ccc;
-    text-align: left;
+    text-align: justify;
     display: flex;
     align-items: center;
     justify-content: center;
