@@ -1,5 +1,6 @@
 html,
 body {
+    color: #ccc;
     width: 100%;
     background-color: rgb(10, 10, 10);
 }
