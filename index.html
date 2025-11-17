@@ -1,104 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Dmytro Plekhotkin — Game Developer</title>
+<style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#0e0e0f;color:#e8e8e8;line-height:1.6}
+h1,h2,h3{margin:0;font-weight:700}
+a{color:#4fc3f7;text-decoration:none}a:hover{text-decoration:underline}
 
-    <script src="https://use.fontawesome.com/c652bc348f.js"></script>
-    <title>
-        Dmytro Plekhotkin
-    </title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+header{padding:4rem 1rem;text-align:center;background:linear-gradient(135deg,#101820,#1f2937,#0d47a1);color:#fff}
+header h1{font-size:3rem;margin-bottom:.5rem}
+header h2{font-size:1.3rem;font-weight:400;opacity:.9}
+.parrot{height:55px;vertical-align:middle}
+
+
+.container{width:92%;max-width:1800px;margin:2rem auto}
+
+
+.game-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:1.5rem}
+.game-card{background:#1c1c1e;padding:1rem;border-radius:10px;transition:.25s;border:1px solid #2a2a2c;text-align:center}
+.game-card:hover{transform:translateY(-6px);box-shadow:0 8px 18px rgba(0,0,0,.45)}
+.game-card img{width:200px;height:200px;object-fit:cover;border-radius:8px;margin-bottom:.8rem}
+.game-card h3{font-size:1.1rem;margin-bottom:.3rem;color:#fff}
+
+
+footer{text-align:center;padding:2rem 0;margin-top:3rem;font-size:.9rem;color:#aaa}
+</style>
 </head>
-
 <body>
 
-    <section id="cover">
-        <div class="cover-caption">
-            <div class="container">
-                <div class="row mb-3">
-                    <div class="col-sm-12">
-                        <h1 id="cover-title" class="display-4">
-                        	<img class="partyparrot" src="https://cultofthepartyparrot.com/flags/hd/ukraineparrot.gif">
-                        	Dmytro Plekhotkin
-                        	<img class="partyparrot" src="https://cultofthepartyparrot.com/flags/hd/ukraineparrot.gif"></h1>
-                        <h2 id="cover-title" class="display-5">Game Developer(<a href="Devlog/index.html">Devlog</a>)</h2>
-                    </div>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-sm-10 offset-sm-1">
-                        <div id="quote" class="card card-inverse card-info mb-3 text-center">
-                            <div class="card-block">
+<header>
+    <h1><img class="parrot" src="https://cultofthepartyparrot.com/flags/hd/ukraineparrot.gif"> Dmytro Plekhotkin <img class="parrot" src="https://cultofthepartyparrot.com/flags/hd/ukraineparrot.gif"></h1>
+    <h2>Game Developer — Creating small games with big heart</h2>
+</header>
 
-                                <h3>Projects</h3>
-                                <div><a href="drawForInfants/index.html" disabled>Малювалка для немовлят <img src="drawForInfants/images/1.png" height="25"></a></div>
-                                <div><a href="drum-machine.html">Drum accompaniment<img src="images/1.png" height="25"></a></div>
-                                <div><a href="deGorodyna/de-gorodyna.html">Де? Городина<img src="deGorodyna/images/5.jpg" height="25"></a></div>
-                                <div><a href="dioramaMini/index.html">Diorama Mini<img src="dioramaMini/images/1.png" height="25"></a></div>
-                                <div><a href="dropTheBall/index.html">Drop the ball<img src="dropTheBall/images/1.png" height="25"></a></div>
-                                <div><a href="RandomColor/index.html">Random Color<img src="RandomColor/images/1.png" height="25"></a></div>
-                                <div><a href="RandomNumber/index.html">Random Number<img src="RandomNumber/images/2.png" height="25"></a></div>
-                                <div><a href="SpookyPuzzle/index.html">Spooky Puzzle<img src="SpookyPuzzle/images/1.jpg" height="25"></a></div>
-                                <div><a href="RandomLetter/index.html">Random Letter<img src="RandomLetter/images/1.jpg" height="25"></a></div>
-                                <div><a href="RandomDice/index.html">Random Dice<img src="RandomDice/images/1.jpg" height="25"></a></div>
-                                <div><a href="RedDot/index.html">Red Dot For Cats<img src="RedDot/images/3.jpg" height="25"></a></div>
-                                <div><a href="YesNo/index.html">Yes No<img src="YesNo/images/1.jpg" height="25"></a></div>
-                                <div><a href="UkrainianAlphabet/index.html">Український алфавіт<img src="UkrainianAlphabet/images/1.jpg" height="25"></a></div>
-                                <div><a href="MuscleCarPuzzle/index.html">Muscle Car Puzzle<img src="MuscleCarPuzzle/images/1.jpg" height="25"></a></div>
-                                <div><a href="LovelyBirdPuzzles/index.html">Lovely Bird Puzzles<img src="LovelyBirdPuzzles/images/1.jpg" height="25"></a></div>
-                                <div><a href="SpanishAlphabet/index.html">Alfabeto: Pantalla completa<img src="SpanishAlphabet/images/1.jpg" height="25"></a></div>
-                                <div><a href="SpaceScouts/index.html">Space Scouts<img src="SpaceScouts/images/1.jpg" height="25"></a></div>
-                                <div><a href="CatPuzzles/index.html">Cat Puzzles<img src="CatPuzzles/images/1.jpg" height="25"></a></div>
-                                <div><a href="TheEndIsNear/index.html">The End Is Near<img src="TheEndIsNear/images/1.png" height="25"></a></div>
-                                <div><a href="StayInsideTheCircle/index.html">Stay Inside The Circle<img src="StayInsideTheCircle/images/1.png" height="25"></a></div>
-                                <div><a href="GhostsClicker/index.html">Ghosts: Clicker<img src="GhostsClicker/images/1.png" height="25"></a></div>
-                                <div><a href="AutoBeat/index.html">AutoBeat<img src="AutoBeat/images/1.png" height="25"></a></div>
-                                <div><a href="AutoDrumMachine/index.html">Auto Drum Machine<img src="AutoDrumMachine/images/1.png" height="25"></a></div>
-                                <div><a href="AutoGroove/index.html">AutoGroove<img src="AutoGroove/images/1.png" height="25"></a></div>
-                                <div><a href="DrumMachineFarm/index.html">Drum Machine: Farm<img src="DrumMachineFarm/images/1.png" height="25"></a></div>
-                                <div>
-                                    <a href="StopwatchFullScreen/index.html">
-                                        Stopwatch Full Screen<img src="StopwatchFullScreen/images/1.png" height="25">
-                                    </a>
-                                </div>
-                                <div><a href="WhirlingAxe/index.html">Whirling Axe<img src="WhirlingAxe/images/1.png" height="25"></a></div>
-                                <div><a href="EasyDrumMachine/index.html">Easy Drum Machine<img src="EasyDrumMachine/images/1.png" height="25"></a></div>
-                                <div><a href="ClassicRedDot/index.html">Classic Red Dot<img src="ClassicRedDot/images/1.png" height="25"></a></div>
-                                <div><a href="RandomNumber2/index.html">Random Number 2: Fullscreen<img src="RandomNumber2/images/1.png" height="25"></a></div>
-                                <div><a href="Constitution/index.html">Моя Конституція<img src="Constitution/images/1.png" height="25"></a></div>
-                                <div><a href="CartoonyRandomNumber/index.html">Cartoony Random Number<img src="CartoonyRandomNumber/images/1.png" height="25"></a></div>
-                                <div><a href="RandomNumberBalloons/index.html">Random Number Balloons<img src="RandomNumberBalloons/images/1.png" height="25"></a></div>
-                                <div><a href="Рахувалик/index.html">Рахувалик<img src="Рахувалик/images/1.jpg" height="25"></a></div>
-                                <div><a href="ShapeRecognitionBlitz/index.html">Shape Recognition Blitz<img src="ShapeRecognitionBlitz/images/1.jpg" height="25"></a></div>
-                                <div><a href="ПоТойБік/index.html">По Той Бік<img src="ПоТойБік/images/1.jpg" height="25"></a></div>
-                                <div><a href="Charades/index.html">Charades<img src="Charades/images/1.jpg" height="25"></a></div>
-                                <div><a href="ForCats/index.html">For Cats<img src="ForCats/images/1.jpg" height="25"></a></div>
-                                <div><a href="kids123/index.html">123 Counting For Kids<img src="kids123/images/1.jpg" height="25"></a></div>
-                                <div><a href="GamesForCats/index.html">Games For Cats<img src="GamesForCats/images/1.jpg" height="25"></a></div>
-                                <div><a href="CatGames/index.html">CatGames<img src="CatGames/images/1.jpg" height="25"></a></div>
-                                <div><a href="QrCodeer/index.html">QR Codeer<img src="QrCodeer/images/1.jpg" height="25"></a></div>
-                                <div><a href="QrCodeMaker/index.html">QR Code Maker!<img src="QrCodeMaker/images/1.jpg" height="25"></a></div>
-                                <div><a href="RandomDice2D/index.html">Random Dice 2D<img src="RandomDice2D/images/1.png" height="25"></a></div>
-                                <div><a href="FruitMergeWatermelon/index.html">Fruit Merge: Watermelon<img src="FruitMergeWatermelon/images/1.png" height="25"></a></div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="container">
+    <h2 style="margin-bottom:1rem;">Projects</h2>
+    <div class="game-list">
+       
+        <a class="game-card" href="drawForInfants/index.html">
+            <img src="drawForInfants/images/1.png" alt="">
+            <h3>Малювалка для немовлят</h3>
+        </a>
+        <a class="game-card" href="drum-machine.html">
+            <img src="images/1.png" alt="">
+            <h3>Drum Accompaniment</h3>
+        </a>
+        <a class="game-card" href="deGorodyna/de-gorodyna.html">
+            <img src="deGorodyna/images/5.jpg" alt="">
+            <h3>Де? Городина</h3>
+        </a>
+        <a class="game-card" href="dioramaMini/index.html">
+            <img src="dioramaMini/images/1.png" alt="">
+            <h3>Diorama Mini</h3>
+        </a>
+        <a class="game-card" href="dropTheBall/index.html">
+            <img src="dropTheBall/images/1.png" alt="">
+            <h3>Drop the Ball</h3>
+        </a>
+        <a class="game-card" href="RandomColor/index.html">
+            <img src="RandomColor/images/1.png" alt="">
+            <h3>Random Color</h3>
+        </a>
+        <a class="game-card" href="RandomNumber/index.html">
+            <img src="RandomNumber/images/2.png" alt="">
+            <h3>Random Number</h3>
+        </a>
+                                <a class="game-card"  href="SpookyPuzzle/index.html"><img src="SpookyPuzzle/images/1.jpg" alt=""><h3>Spooky Puzzle</h3></a>
+                                <a class="game-card"  href="RandomLetter/index.html"><img src="RandomLetter/images/1.jpg" alt=""><h3>Random Letter</h3></a>
+                                <a class="game-card"  href="RandomDice/index.html"><img src="RandomDice/images/1.jpg" alt=""><h3>Random Dice</h3></a>
+                                <a class="game-card"  href="RedDot/index.html"><img src="RedDot/images/3.jpg" alt=""><h3>Red Dot For Cats</h3></a>
+                                <a class="game-card"  href="YesNo/index.html"><img src="YesNo/images/1.jpg" alt=""><h3>Yes No</h3></a>
+                                <a class="game-card"  href="UkrainianAlphabet/index.html"><img src="UkrainianAlphabet/images/1.jpg" alt=""><h3>Український алфавіт</h3></a>
+                                <a class="game-card"  href="MuscleCarPuzzle/index.html"><img src="MuscleCarPuzzle/images/1.jpg" alt=""><h3>Muscle Car Puzzle</h3></a>
+                                <a class="game-card"  href="LovelyBirdPuzzles/index.html"><img src="LovelyBirdPuzzles/images/1.jpg" alt=""><h3>Lovely Bird Puzzles</h3></a>
+                                <a class="game-card"  href="SpanishAlphabet/index.html"><img src="SpanishAlphabet/images/1.jpg" alt=""><h3>Alfabeto: Pantalla completa</h3></a>
+                                <a class="game-card"  href="SpaceScouts/index.html"><img src="SpaceScouts/images/1.jpg" alt=""><h3>Space Scouts</h3></a>
+                                <a class="game-card"  href="CatPuzzles/index.html"><img src="CatPuzzles/images/1.jpg" alt=""><h3>Cat Puzzles</h3></a>
+                                <a class="game-card"  href="TheEndIsNear/index.html"><img src="TheEndIsNear/images/1.png" alt=""><h3>The End Is Near</h3></a>
+                                <a class="game-card"  href="StayInsideTheCircle/index.html"><img src="StayInsideTheCircle/images/1.png" alt=""><h3>Stay Inside The Circle</h3></a>
+                                <a class="game-card"  href="GhostsClicker/index.html"><img src="GhostsClicker/images/1.png" alt=""><h3>Ghosts: Clicker</h3></a>
+                                <a class="game-card"  href="AutoBeat/index.html"><img src="AutoBeat/images/1.png" alt=""><h3>AutoBeat</h3></a>
+                                <a class="game-card"  href="AutoDrumMachine/index.html"><img src="AutoDrumMachine/images/1.png" alt=""><h3>Auto Drum Machine</h3></a>
+                                <a class="game-card"  href="AutoGroove/index.html"><img src="AutoGroove/images/1.png" alt=""><h3>AutoGroove</h3></a>
+                                <a class="game-card"  href="DrumMachineFarm/index.html"><img src="DrumMachineFarm/images/1.png" alt=""><h3>Drum Machine: Farm</h3></a>
+                                <a class="game-card"  href="StopwatchFullScreen/index.html"><img src="StopwatchFullScreen/images/1.png" alt=""><h3>Stopwatch Full Screen</h3></a>
+                                <a class="game-card"  href="WhirlingAxe/index.html"><img src="WhirlingAxe/images/1.png" alt=""><h3>Whirling Axe</h3></a>
+                                <a class="game-card"  href="EasyDrumMachine/index.html"><img src="EasyDrumMachine/images/1.png" alt=""><h3>Easy Drum Machine</h3></a>
+                                <a class="game-card"  href="ClassicRedDot/index.html"><img src="ClassicRedDot/images/1.png" alt=""><h3>Classic Red Dot</h3></a>
+                                <a class="game-card"  href="RandomNumber2/index.html"><img src="RandomNumber2/images/1.png" alt=""><h3>Random Number 2: Fullscreen</h3></a>
+                                <a class="game-card"  href="Constitution/index.html"><img src="Constitution/images/1.png" alt=""><h3>Моя Конституція</h3></a>
+                                <a class="game-card"  href="CartoonyRandomNumber/index.html"><img src="CartoonyRandomNumber/images/1.png" alt=""><h3>Cartoony Random Number</h3></a>
+                                <a class="game-card"  href="RandomNumberBalloons/index.html"><img src="RandomNumberBalloons/images/1.png" alt=""><h3>Random Number Balloons</h3></a>
+                                <a class="game-card"  href="Рахувалик/index.html"><img src="Рахувалик/images/1.jpg" alt=""><h3>Рахувалик</h3></a>
+                                <a class="game-card"  href="ShapeRecognitionBlitz/index.html"><img src="ShapeRecognitionBlitz/images/1.jpg" alt=""><h3>Shape Recognition Blitz</h3></a>
+                                <a class="game-card"  href="ПоТойБік/index.html"><img src="ПоТойБік/images/1.jpg" alt=""><h3>По Той Бік</h3></a>
+                                <a class="game-card"  href="Charades/index.html"><img src="Charades/images/1.jpg" alt=""><h3>Charades</h3></a>
+                                <a class="game-card"  href="ForCats/index.html"><img src="ForCats/images/1.jpg" alt=""><h3>For Cats</h3></a>
+                                <a class="game-card"  href="kids123/index.html"><img src="kids123/images/1.jpg" alt=""><h3>123 Counting For Kids</h3></a>
+                                <a class="game-card"  href="GamesForCats/index.html"><img src="GamesForCats/images/1.jpg" alt=""><h3>Games For Cats</h3></a>
+                                <a class="game-card"  href="CatGames/index.html"><img src="CatGames/images/1.jpg" alt=""><h3>CatGames</h3></a>
+                                <a class="game-card"  href="QrCodeer/index.html"><img src="QrCodeer/images/1.jpg" alt=""><h3>QR Codeer</h3></a>
+                                <a class="game-card"  href="QrCodeMaker/index.html"><img src="QrCodeMaker/images/1.jpg" alt=""><h3>QR Code Maker!</h3></a>
+                                <a class="game-card"  href="RandomDice2D/index.html"><img src="RandomDice2D/images/1.png" alt=""><h3>Random Dice 2D</h3></a>
+                                <a class="game-card"  href="FruitMergeWatermelon/index.html"><img src="FruitMergeWatermelon/images/1.png" alt=""><h3>Fruit Merge: Watermelon</h3></a>
+        
+    </div>
+</div>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
+<footer>
+    © 2025 Dmytro Plekhotkin — Game Developer
+</footer>
+
 </body>
-
 </html>
