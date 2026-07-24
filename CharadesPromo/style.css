@@ -1,0 +1,173 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:Arial,sans-serif;
+background:#5ab8f5;
+color:white;
+text-align:center;
+
+}
+
+.container{
+
+width:90%;
+max-width:1000px;
+margin:auto;
+
+}
+
+header{
+
+padding:60px 20px;
+
+}
+
+.logo{
+
+width:120px;
+border-radius:30px;
+box-shadow:0 15px 40px rgba(0,0,0,.2);
+
+}
+
+h1{
+
+font-size:60px;
+margin-top:20px;
+
+}
+
+.subtitle{
+
+margin:20px 0 40px;
+font-size:24px;
+opacity:.9;
+
+}
+
+.button{
+
+display:inline-block;
+padding:18px 36px;
+background:#7a4cff;
+color:white;
+text-decoration:none;
+border-radius:40px;
+font-size:22px;
+transition:.3s;
+
+}
+
+.button:hover{
+
+transform:translateY(-3px);
+
+}
+
+.hero{
+
+padding:40px 0;
+
+}
+
+.heroImage{
+
+width:320px;
+max-width:100%;
+border-radius:25px;
+box-shadow:0 20px 60px rgba(0,0,0,.3);
+
+}
+
+.features{
+
+padding:80px 0;
+
+}
+
+.cards{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+margin-top:40px;
+
+}
+
+.card{
+
+background:white;
+color:#333;
+padding:30px;
+border-radius:20px;
+
+}
+
+.card h3{
+
+margin:15px 0;
+
+}
+
+.gallery{
+
+padding:80px 20px;
+
+}
+
+.screens{
+
+   
+    padding: 30px;
+    margin: 0 auto;
+    
+
+
+}
+
+.screens img{
+
+width:220px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+}
+
+.download{
+
+padding:100px 20px;
+
+}
+
+.buttons{
+
+margin-top:40px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+
+}
+
+.store{
+
+background:white;
+color:#333;
+padding:18px 36px;
+border-radius:15px;
+text-decoration:none;
+font-size:22px;
+
+}
+
+footer{
+
+padding:60px;
+opacity:.8;
+
+}
